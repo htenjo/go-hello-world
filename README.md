@@ -23,3 +23,16 @@ $ docker build --tag <your_image_tag> .
 
 # docker run <your_image_tag>
 ```
+
+## Make commands
+``` bash
+# Building the project
+$ make build
+
+# Pushing the docker image to the registry
+$ make push
+```
+
+
+## References
+- [Docker & Makefiles](https://earthly.dev/blog/docker-and-makefiles/)
